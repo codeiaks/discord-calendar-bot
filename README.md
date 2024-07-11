@@ -55,22 +55,22 @@ This bot integrates with Google Calendar API to fetch upcoming events and post t
 
 ## Configuration
 
-In the `discord_calendar_bot.py` file, replace the following placeholders with your actual values:
+- In the `discord_calendar_bot.py` file, replace the following placeholders with your actual values:
 
-    ```
-    # Replace with bot token
-    TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
-    # Replace with channel ID
-    CHANNEL_ID = YOUR_CHANNEL_ID
-    ```
+  ```
+  # Replace with bot token
+  TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
+  # Replace with channel ID
+  CHANNEL_ID = YOUR_CHANNEL_ID
+  ```
 
 ## Usage
 
-Run the bot:
+- Run the bot:
 
-    ```
-    python discord_calendar_bot.py
-    ```
+  ```
+  python discord_calendar_bot.py
+  ```
 
 The bot will fetch Google Calendar events every 10 minutes and post them in the specified Discord channel.
 
