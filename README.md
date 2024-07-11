@@ -20,7 +20,7 @@ This bot integrates with Google Calendar API to fetch upcoming events and post t
 
 1. **Clone the repository:**
 
-   ```bash
+   ```
    git clone https://github.com/codeiaks/discord-calendar-bot.git
    cd discord-calendar-bot
    ```
@@ -29,14 +29,14 @@ This bot integrates with Google Calendar API to fetch upcoming events and post t
 
    Create and activate a virutal environment (optional):
 
-   ```bash
+   ```
    python -m venv venv
    source venv/bin/activate # On Windows, use 'venv\Scripts\activate'
    ```
 
    Install the required Python packages:
 
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
@@ -57,7 +57,7 @@ This bot integrates with Google Calendar API to fetch upcoming events and post t
 
 In the `discord_calendar_bot.py` file, replace the following placeholders with your actual values:
 
-    ```python
+    ```
     # Replace with bot token
     TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
     # Replace with channel ID
@@ -68,7 +68,7 @@ In the `discord_calendar_bot.py` file, replace the following placeholders with y
 
 Run the bot:
 
-    ```bash
+    ```
     python discord_calendar_bot.py
     ```
 
